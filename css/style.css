@@ -37,7 +37,18 @@ main {
 #risultato{
     color: white;
 }
-
+.win{
+    color: green;
+    font-size: 4rem;
+}
+.draw{
+    color: blueviolet;
+    font-size: 4rem;
+}
+.loser{
+    color: red;
+    font-size: 4rem;
+}
 
 
 
