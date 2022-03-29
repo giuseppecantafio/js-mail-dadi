@@ -53,11 +53,11 @@ bottone2.addEventListener("click", function(){
     console.log(playerDice);
 
     if(computerDice < playerDice){
-        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore ${playerDice}: HAI VINTO!`
+        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore: ${playerDice}<br/> <span class="win">HAI VINTO!</span>`
     } else if (computerDice == playerDice){
-        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore ${playerDice}: PAREGGIO`
+        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore: ${playerDice}<br/> <span class="draw">PATTA!</span>`
     } else{
-        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore ${playerDice}: HAI PERSO`
+        result.innerHTML = ` Numero computer: ${computerDice} - Numero giocatore: ${playerDice}<br/> <span class="loser">HAI PERSO!</span>`
     }
 
 });
